@@ -60,7 +60,7 @@ body {
   margin-bottom: 30px;
 }
 
-.circle .span-circle {
+.left-container .circle .span-circle {
   font-size: 70px;
   font-weight: 800;
   color: var(--Paleblue);
@@ -155,6 +155,12 @@ body {
   padding: 18px;
   border-radius: 40px;
   margin-top: 40px;
+  transition: 03s ease-out;
+}
+
+.right-container .btn:hover{
+  cursor: pointer;
+  background-color: hsla(224, 30%, 27%, 0.082);
 }
 
 .attribution {

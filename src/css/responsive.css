@@ -1,0 +1,50 @@
+@media (max-width: 740px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-height: 800px;
+    }
+
+    .left-container{
+        padding: 15px;
+        border-radius: 0;
+        border-bottom-left-radius: 28px;
+        border-bottom-right-radius: 28px;
+        height: 350px;
+    }
+
+    .left-container .circle{
+        width: 40%;
+        padding: 20px;
+    }
+
+    .left-container .circle .span-circle {
+        font-size: 50px;
+    }
+
+    .left-container .paragrafh{
+        width: 80%;
+        font-size: 15px;
+        font-weight: 800;
+        padding-bottom: 20px;
+    }
+
+    .right-container{
+        width: 350px;
+        padding: 0 15px;
+        gap: 30px;
+    }
+    
+    .right-container .title{
+        padding: 0;
+    }
+
+    .right-container .btn{
+        padding: 15px;
+        margin-top: 0;
+    }
+
+    .right-container .box{
+        padding: 10px;
+    }
+}
