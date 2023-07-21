@@ -1,0 +1,168 @@
+body {
+  background-color: --White;
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 28px;
+}
+
+.left-container {
+  border-radius: 28px;
+  height: 512px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--Lightslateblue);
+  background: linear-gradient(
+    180deg,
+    var(--Lightslateblue) 0%,
+    var(--Lightroyalblue) 100%
+  );
+  gap: 10px;
+}
+
+.left-container .title {
+  color: var(--Lightlavender);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.left-container .circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--Violetblue);
+  background: linear-gradient(
+    180deg,
+    var(--Violetblue) 0%,
+    var(--Persiablue) 100%
+  );
+  border-radius: 50%;
+  width: 55%;
+  height: 200px;
+  color: var(--Lightlavender);
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.circle .span-circle {
+  font-size: 70px;
+  font-weight: 800;
+  color: var(--Paleblue);
+}
+
+.left-container .title-2 {
+  color: var(--Paleblue);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.left-container .paragrafh {
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
+  color: var(--Lightlavender);
+}
+
+.right-container {
+  border-radius: 28px;
+  height: 512px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 36px;
+  font-weight: 500;
+}
+
+.right-container .title {
+  font-size: 24px;
+  color: var(--Darkgrayblue);
+  padding-bottom: 10px;
+}
+
+.right-container .list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right-container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+  border-radius: 10px;
+}
+
+.right-container .icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-container .numbers {
+  color: hsla(0, 0%, 50%, 0.665);
+}
+
+.right-container .number {
+  color: var(--Darkgrayblue);
+  font-weight: 700;
+}
+
+.right-container .reaction {
+  background-color: hsla(0, 100%, 67%, 0.07);
+  color: var(--Lightred);
+}
+
+.right-container .memory {
+  background-color: hsla(39, 100%, 56%, 0.07);
+  color: var(--Orangeyyellow);
+}
+
+.right-container .verbal {
+  background-color: hsla(166, 100%, 37%, 0.07);
+  color: var(--Greenteal);
+}
+
+.right-container .visual {
+  background-color: hsla(234, 85%, 45%, 0.07);
+  color: var(--Cobaltblue);
+}
+
+.right-container .btn {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: var(--Darkgrayblue);
+  border: none;
+  color: var(--White);
+  padding: 18px;
+  border-radius: 40px;
+  margin-top: 40px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
