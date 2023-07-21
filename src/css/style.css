@@ -160,7 +160,7 @@ body {
 
 .right-container .btn:hover{
   cursor: pointer;
-  background-color: hsla(224, 30%, 27%, 0.082);
+  background-color: hsla(224, 30%, 27%, 0.51);
 }
 
 .attribution {
